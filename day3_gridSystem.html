@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container mt-4">
+    <h2 class="mb-3">Fixed Columns</h2>
+    <div class="row mb-4">
+        <div class="col-4 bg-primary text-white p-3">4 cols</div>
+        <div class="col-8 bg-success text-white p-3">8 cols</div>
+    </div>
+
+    <h2 class="mb-3">Responsive Columns</h2>
+    <div class="row mb-4">
+        <div class="col-12 col-md-6 col-lg-3 bg-primary text-white p-3">Col 1</div>
+        <div class="col-12 col-md-6 col-lg-3 bg-success text-white p-3">Col 2</div>
+        <div class="col-12 col-md-6 col-lg-3 bg-danger text-white p-3">Col 3</div>
+        <div class="col-12 col-md-6 col-lg-3 bg-warning text-dark p-3">Col 4</div>
+    </div>
+
+    <h2 class="mb-3">Auto-layout Columns</h2>
+    <div class="row mb-4">
+        <div class="col bg-primary text-white p-3">Auto 1</div>
+        <div class="col bg-success text-white p-3">Auto 2</div>
+        <div class="col bg-danger text-white p-3">Auto 3</div>
+    </div>
+
+    <h2 class="mb-3">Nested Columns</h2>
+    <div class="row mb-4">
+        <div class="col-6 bg-primary text-white p-3">
+            Parent 6 cols
+            <div class="row mt-2">
+                <div class="col-6 bg-success text-white p-2">Nested 1</div>
+                <div class="col-6 bg-danger text-white p-2">Nested 2</div>
+            </div>
+        </div>
+        <div class="col-6 bg-warning text-dark p-3">Parent 6 cols</div>
+    </div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
